@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,900&display=swap");
+.clipping-path-full {
+  background-color: #fd8cb2 !important;
+  -webkit-clip-path: circle(75%) !important;
+          clip-path: circle(75%) !important;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eedaa2;
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+}
+
+body .container {
+  width: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0;
+}
+
+body .container .inner {
+  background-color: lime;
+  padding: 1em;
+  width: calc(100%);
+  border-radius: 10px;
+  -webkit-clip-path: circle(10% at 90% 20%);
+          clip-path: circle(10% at 90% 20%);
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+
+body .container .inner span.iclick {
+  float: right;
+  color: #fff;
+  font-weight: 900;
+  position: relative;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  margin-right: 4%;
+  margin-top: 6px;
+}
+
+body .container .inner h1 {
+  color: white;
+}
+
+body .container .inner p {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
